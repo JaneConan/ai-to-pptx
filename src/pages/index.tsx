@@ -40,31 +40,10 @@ const AiPPTXModel = () => {
       >
         <Button
           size={'small'}
-          variant="outlined"
-          onClick={() => handleButtonClick('https://github.com/chatbookai/ai-to-pptx')}
-        >
-          项目前端
-        </Button>
-        <Button
-          size={'small'}
-          variant="outlined"
-          onClick={() => handleButtonClick('https://github.com/chatbookai/ai-to-pptx-backend')}
-        >
-          项目后端
-        </Button>
-        <Button
-          size={'small'}
-          variant="outlined"
-          onClick={() => handleButtonClick('https://pptx.dandian.net/')}
-        >
-          演示站点
-        </Button>
-        <Button
-          size={'small'}
           variant={pageMode == "AiToPPTX" ? "contained" : "outlined"}
           onClick={() => setPageMode('AiToPPTX')}
         >
-          AiToPPTX
+          TCC-AiToPPTX
         </Button>
         <Button
           size={'small'}
