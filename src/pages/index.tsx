@@ -12,10 +12,6 @@ import BlankLayout from 'src/@core/layouts/BlankLayout'
 
 const AiPPTXModel = () => {
 
-  const handleButtonClick = (url: string) => {
-    window.open(url, '_blank', 'noopener,noreferrer'); // 打开新窗口
-  };
-
   const [pageMode, setPageMode] = useState("AiToPPTX");
 
   return (
